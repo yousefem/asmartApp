@@ -1,0 +1,161 @@
+.OutPuts {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.548);
+    font-size: 10.5pt;
+    font-weight: 600;
+    /* background-image: url('https://s25.picofile.com/file/8451585292/tina_dawson_Kim9COAIEGc_unsplash_5922e7ed1d3da93bbae6.jpg'); */
+    background-position: center;
+    background-size: cover;
+}
+
+#part1-OutPuts {
+    width: 97%;
+    /* height: 10px; */
+    /* background-color: red; */
+    margin: 10px auto;
+}
+
+.item-OutPuts {
+    width: 100%;
+    height: 60px;
+    background-color: #1a1a1a;
+    display: flex;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    overflow: hidden;
+    margin-top: 10px;
+    justify-content: space-between;
+    color: white;
+    /* padding-right: 5px; */
+}
+
+#part1-OutPuts .item-OutPuts .name-OutPuts,
+#part1-OutPuts .item-OutPuts .state-OutPuts {
+    padding-right: 10px;
+}
+
+#part1-OutPuts .item-OutPuts .name-OutPuts {
+    justify-content: right;
+    text-align: right;
+    display: flex;
+}
+
+#part1-OutPuts .item-OutPuts .state-OutPuts {
+    width: fit-content;
+    display: flex;
+}
+
+#part1-OutPuts .item-OutPuts .state-OutPuts .off-OutPut,
+#part1-OutPuts .item-OutPuts .state-OutPuts .on-OutPut {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(39, 37, 37);
+    border-radius: 35px;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
+    display: flex;
+    justify-content: space-around;
+    top: 50%;
+    transform: translateY(-50%);
+    /*border: 2pt solid #0afc96;
+    */
+    /*padding: 2px;
+    */
+    /*border: 1pt solid #009b8b;
+    */
+    /*box-shadow: 2pt 2pt 11pt rgba(0, 0, 0, 0.596);
+    */
+    /*border: 2pt solid #0afc96;
+    */
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    margin-left: 15px;
+    border: 1pt solid #0afc96;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    font-size: small;
+    font-weight: 400;
+}
+
+#part1-OutPuts .item-OutPuts .state-OutPuts .off-OutPut {
+    background-image: url(https://s25.picofile.com/file/8452658450/power_button.png);
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    border: 1pt solid white;
+}
+
+#part1-OutPuts .item-OutPuts .state-OutPuts .on-OutPut {
+    background-image: url(https://s25.picofile.com/file/8452658334/power_button_1_.png);
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+
+#part1-OutPuts .item-OutPuts .state-OutPuts .inputPart-OutPuts span {
+    /* background-color: red; */
+    width: 20px;
+    height: 30px;
+    order: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+@keyframes state-off {
+    0% {
+        margin-left: 35px;
+    }
+    100% {
+        margin-left: 5px;
+    }
+}
+
+@keyframes state-on {
+    0% {
+        margin-left: 5px;
+    }
+    100% {
+        margin-left: 35px;
+    }
+}
+
+#part1-OutPuts .item-OutPuts .state-OutPuts .inputPart-OutPuts .input-OutPuts {
+    position: relative;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: #ffffff;
+    top: 2.5px;
+}
+
+#part1-OutPuts .item-OutPuts .name-OutPuts span p {
+    /*height: 100%;
+    */
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+a p {
+    color: #ffffff;
+}

@@ -1,0 +1,18 @@
+.Contacts {
+    height: 100vh;
+    width: 100vw;
+    /* background-image: url('https://s25.picofile.com/file/8451585292/tina_dawson_Kim9COAIEGc_unsplash_5922e7ed1d3da93bbae6.jpg'); */
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    /* display: flex; */
+}
+
+#part1-Contacts {
+    position: static;
+    /* background-color: aqua; */
+    height: 86vh;
+    overflow-y: scroll;
+    position: relative;
+    /* margin-top: 70px; */
+}

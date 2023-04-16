@@ -1,0 +1,127 @@
+.ZoonAlert {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: #0f0f0f8c;
+    z-index: 1;
+}
+
+.ZoonAlert .alert-ZoonAlert {
+    position: absolute;
+    width: 90vw;
+    height: 200px;
+    background-color: #1a1a1a;
+    box-shadow: 2pt 2pt 2pt rgba(0, 0, 0, 0.384);
+    /*border: 1pt solid black;
+    */
+    border-radius: 18px;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.ZoonAlert .alert-ZoonAlert #part1-ZoonAlert {
+    /* position: static;
+    width: 100%; */
+    /* height: 10%; */
+    /* background-color: aqua; */
+}
+
+.ZoonAlert .alert-ZoonAlert .title-ZoonAlert {
+    /* background-color: red; */
+    height: 40px;
+    font-size: medium;
+    font-weight: 400;
+    /* font-weight: 600; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-bottom: 2pt solid #0afc96;
+    text-align: center;
+}
+
+.ZoonAlert .alert-ZoonAlert #part2-ZoonAlert {
+    position: relative;
+    /* background-color: blueviolet; */
+    /* margin: 5px; */
+    width: 100%;
+    /* height: 10%; */
+    margin-top: 30px;
+}
+
+.ZoonAlert .alert-ZoonAlert .inputPart-ZoonAlert {
+    text-align: center;
+}
+
+.ZoonAlert .alert-ZoonAlert .inputPart-ZoonAlert input {
+    width: 80%;
+    height: 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.534);
+    background-color: rgb(39, 37, 37);
+    box-shadow: 1pt 1pt 5pt 1pt rgba(0, 0, 0, 0.479);
+    font-size: small;
+    font-weight: 600;
+    padding: 5px;
+    border: none;
+    direction: rtl;
+    /*box-shadow: 2pt 2pt 6pt 2pt rgba(0, 0, 0, 0.678);
+    */
+}
+
+.ZoonAlert .alert-ZoonAlert #part3-ZoonAlert {
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+}
+
+.ZoonAlert .alert-ZoonAlert .controlers-ZoonAlert {
+    position: static;
+    width: 89%;
+    /* height: 10px; */
+    /* background-color: brown; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.controlers-ZoonAlert div {
+    position: static;
+    width: 70px;
+    height: 30px;
+    background-color: rgb(39, 37, 37);
+    box-shadow: 2pt 2pt 10pt black;
+    /* border: 2pt solid #009b8b; */
+    font-size: small;
+    font-weight: 400;
+    box-shadow: 2pt 2pt 2pt rgba(0, 0, 0, 0.596);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    color: black;
+    text-align: center;
+    color: white;
+    border: 1pt solid #0afc96;
+}

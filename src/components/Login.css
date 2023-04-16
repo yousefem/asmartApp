@@ -1,0 +1,103 @@
+.Login {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://s25.picofile.com/file/8451911668/BeFunky_photo.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.contaner-Login {
+    position: relative;
+    width: 95vw;
+    height: 200px;
+    background-color: #1a1a1a;
+    box-shadow: 1pt 1pt 5pt 1pt rgba(0, 0, 0, 0.479);
+    border-radius: 18px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.contaner-Login .title-Login {
+    height: 40px;
+    font-size: medium;
+    /*font-weight: 400;
+    */
+    /*font-weight: 600;
+    */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-bottom: 2pt solid #0afc96;
+    color: white;
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.contaner-Login .input-Login {
+    margin-top: 30px;
+}
+
+.contaner-Login .input-Login input {
+    width: 80%;
+    height: 20px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    border: 2px solid rgba(0, 0, 0, 0.534);
+    font-size: small;
+    font-weight: 400;
+    padding: 5px;
+    margin-bottom: 15px;
+    border: none;
+    /*box-shadow: 2pt 2pt 6pt 2pt rgba(0, 0, 0, 0.678);
+    */
+    background-color: rgb(39, 37, 37);
+    box-shadow: 1pt 1pt 5pt 1pt rgba(0, 0, 0, 0.479);
+}
+
+.contaner-Login .controller-Login {
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.contaner-Login .controller-Login input {
+    width: 70px;
+    height: 30px;
+    background-color: rgb(39, 37, 37);
+    box-shadow: 1pt 1pt 5pt 1pt rgba(0, 0, 0, 0.479);
+    border: 1pt solid #0afc96;
+    font-weight: 400;
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    text-align: center;
+    color: white;
+    font-family: 'Vazirmatn', sans-serif;
+    align-items: center;
+}
+
+.error {
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: red;
+    font-size: small;
+}

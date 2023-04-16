@@ -1,0 +1,34 @@
+.part-AdvRe {
+    border: 1pt solid gray;
+    border-radius: 10px;
+    width: 96%;
+    margin: 0 auto;
+    background-color: #1a1a1a;
+    color: white;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-top: 5px;
+}
+
+.title-AdvRe {
+    border-bottom: 1pt solid #0afc96;
+    height: 30px;
+}
+
+.selector-AdvRe {
+    border-bottom: 1pt solid #0afc96;
+}
+
+.marginTop {
+    margin-top: 10px;
+}
+
+.z2 {
+    z-index: 2 !important;
+}
+
+.z0 {
+    z-index: 0;
+}

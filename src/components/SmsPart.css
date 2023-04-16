@@ -1,0 +1,181 @@
+    .SmsPart {
+        width: 94%;
+        /* height: 70px; */
+        background-color: #1a1a1a;
+        display: block;
+        margin: 10px auto;
+        padding: 2px;
+        overflow: hidden;
+        border-radius: 25px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        -ms-border-radius: 25px;
+        -o-border-radius: 25px;
+        /* border: 2pt solid; */
+        z-index: 2;
+        padding-bottom: 8px;
+        padding-right: 5px;
+        color: white;
+    }
+    
+    #part1-SmsPart {
+        width: 100%;
+        margin-top: 5px;
+        /* justify-content: space-between; */
+    }
+    
+    .icon-SmsPart {
+        position: relative;
+        width: 50px;
+        height: 50px;
+        /* background-color: bisque; */
+        background-image: url(https://s25.picofile.com/file/8452601984/speech_bubble_1_.png);
+        background-position: center;
+        background-size: 50%;
+        background-repeat: no-repeat;
+        border-radius: 50%;
+        border: 1pt solid #0afc96;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        float: right;
+        /* top: 50%; */
+    }
+    
+    .iconL-SmsPart {
+        position: relative;
+        width: 50px;
+        height: 50px;
+        /* background-color: bisque; */
+        background-image: url(https://s24.picofile.com/file/8451585218/speech_bubble_0818ce581bc0f883efdc.png);
+        background-position: center;
+        background-size: 50%;
+        background-repeat: no-repeat;
+        border-radius: 50%;
+        border: 1pt solid #0a7d60;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        float: right;
+        /* top: 50%; */
+    }
+    
+    .description-SmsPart {
+        /* background-color: chartreuse; */
+        width: 60%;
+        text-align: right;
+        float: right;
+        margin-top: 14px;
+        margin-right: 7px;
+        /* margin-top: 50px; */
+    }
+    
+    .description-SmsPart p:nth-child(1) {
+        font-size: 10.5pt;
+        font-weight: 600;
+        margin-right: 5px;
+    }
+    
+    .open-SmartPart {
+        width: 30px;
+        height: 30px;
+        float: left;
+        background-color: rgb(39, 37, 37);
+        box-shadow: 1pt 1pt 5pt 1pt rgba(0, 0, 0, 0.479);
+        border: 1pt solid #0afc96;
+        background-image: url(https://s24.picofile.com/file/8452602718/down_chevron.png);
+        background-position: center;
+        background-size: 60%;
+        background-repeat: no-repeat;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        margin-top: 11px;
+        margin-left: 5px;
+        box-shadow: 1pt 1pt 5pt 1pt rgba(0, 0, 0, 0.479);
+    }
+    
+    .openL-SmartPart {
+        width: 30px;
+        height: 30px;
+        float: left;
+        background-color: rgb(39, 37, 37);
+        box-shadow: 1pt 1pt 5pt 1pt rgba(0, 0, 0, 0.479);
+        border: 1pt solid #5daf60;
+        background-image: url(https://s25.picofile.com/file/8452973434/d.png);
+        background-position: center;
+        background-size: 60%;
+        background-repeat: no-repeat;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        margin-top: 11px;
+        margin-left: 5px;
+        box-shadow: 1pt 1pt 5pt 1pt rgba(0, 0, 0, 0.479);
+    }
+    
+    #part2-SmsPart {
+        position: relative;
+        width: 95%;
+        margin: 75px auto;
+    }
+    
+    #part2-SmsPart .input-SmsPart {
+        width: 100%;
+        margin: 10px auto;
+    }
+    
+    .input-SmsPart textarea {
+        width: 98%;
+        height: 120px;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+        border: none;
+        background-color: rgb(39, 37, 37);
+        box-shadow: 1pt 1pt 5pt 1pt rgba(0, 0, 0, 0.479);
+        text-align: right;
+        padding-right: 5px;
+        padding-top: 5px;
+        direction: rtl;
+        color: white;
+    }
+    
+    #part2-SmsPart .controllers-SmsPart {
+        margin: 16px auto;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    #part2-SmsPart .controllers-SmsPart a {
+        position: relative;
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        bottom: 10px;
+    }
+    
+    .controllers-SmsPart a button {
+        width: 70px;
+        height: 30px;
+        background-color: rgb(39, 37, 37);
+        box-shadow: 1pt 1pt 5pt 1pt rgba(0, 0, 0, 0.479);
+        border: 1pt #0afc96 solid;
+        border-radius: 15px;
+        font-size: small;
+        font-weight: 400;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
+        color: white;
+    }

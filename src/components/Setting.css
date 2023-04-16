@@ -1,0 +1,430 @@
+    .Setting {
+        width: 100vw;
+        height: 100vh;
+        background-color: aliceblue;
+        /* background-image: url('https://s24.picofile.com/file/8451585250/thomas_lefebvre_mT1uxKaegSQ_unsplash_bde9b5fc5ab03a369e84.jpg'); */
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .header-Setting {
+        position: static;
+        width: 100%;
+        height: 60px;
+        background-color: #1a1a1a;
+        display: flex;
+        flex-direction: row-reverse;
+        /* justify-content: space-between; */
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        z-index: 1;
+        color: white;
+    }
+    
+    .bgb-Setting {
+        width: 100vw;
+        height: 100vh;
+        background-color: #0f0f0f8c;
+        /* background-color: red; */
+        /* padding-top: 1vh; */
+    }
+    
+    .bg-Setting {
+        margin-top: 0px;
+        width: 100vw;
+        height: 100vh;
+        background-color: #0f0f0f;
+        background-image: url(https://s25.picofile.com/file/8451911668/BeFunky_photo.png);
+        background-size: cover;
+    }
+    
+    .header-Setting .backPart-Setting {
+        position: relative;
+        width: 40px;
+        height: 40px;
+        /* background-color: red; */
+        background-image: url(https://s25.picofile.com/file/8452602342/back_button.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 65%;
+        top: 50%;
+        transform: rotate(-180deg) translateY(50%);
+        -webkit-transform: rotate(-180deg) translateY(50%);
+        -moz-transform: rotate(-180deg) translateY(50%);
+        -ms-transform: rotate(-180deg) translateY(50%);
+        -o-transform: rotate(-180deg) translateY(50%);
+    }
+    
+    .refresh {
+        position: absolute;
+        /* position: static; */
+        /* margin-left: 10px; */
+        /* width: 90px !important; */
+        /* height: 90px !important; */
+        overflow: visible;
+        /* border: 2pt solid; */
+        /* background-color: pink; */
+        height: 60px;
+        width: 50px;
+        /* margin-left: 10px; */
+        left: 5px;
+    }
+    
+    .refresh p {
+        width: max-content;
+        /* background-color: red; */
+        /* margin-left: 10px; */
+        color: white;
+    }
+    
+    .refresh .icon-refresh {
+        position: relative;
+        border-radius: 50%;
+        /*background-color: red;
+        */
+        width: 40px;
+        height: 40px;
+        /*margin: 0 auto;
+        */
+        background-image: url(https://s25.picofile.com/file/8452601826/refresh_3_.png) !important;
+        background-position: center;
+        background-size: 65%;
+        background-repeat: no-repeat;
+        top: 50%;
+        transform: translateY(-50%);
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        /*float: left;
+        */
+        /*right: 75vw;
+        */
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+    }
+    
+    .refresh .text-refresh {
+        /* width: 50px; */
+        /* background-color: aqua; */
+        font-size: medium;
+        font-weight: 300;
+        /* margin-left: 5px; */
+    }
+    
+    .refresh .text-refresh p {
+        /* background-color: red; */
+    }
+    
+    .header-Setting .titlPart-Setting {
+        position: absolute;
+        /* background-color: red; */
+        height: 60px;
+        display: flex;
+        flex-direction: column;
+        left: 50%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+    }
+    
+    .header-Setting .titlPart-Setting p {
+        position: absolute;
+        /* background-color: red; */
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+    }
+    
+    .menu-Setting {
+        width: 100%;
+        margin-top: 5%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        font-size: small;
+        font-weight: 600;
+        direction: rtl;
+    }
+    
+    .part-Setting {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+    
+    .item-Setting {
+        background-color: #1a1a1a;
+        /*padding: 10px;
+    */
+        margin: 10px;
+        border-radius: 15px;
+        /* border: 1.5pt solid #009b8c; */
+        overflow: hidden;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
+        /* color: #d7ecffa2; */
+        padding: 5px;
+        color: white;
+        /* height: 65px; */
+        width: 33vw;
+        height: 33vw;
+        max-width: 90px;
+        max-height: 90px;
+    }
+    
+    .item-null {
+        /* background-color: #1a1a1a; */
+        /*padding: 10px;
+    */
+        margin: 10px;
+        border-radius: 15px;
+        /* border: 1.5pt solid #009b8c; */
+        overflow: hidden;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
+        /* color: #d7ecffa2; */
+        padding: 5px;
+        color: white;
+        /* height: 65px; */
+        width: 33vw;
+        height: 33vw;
+        max-width: 90px;
+        max-height: 90px;
+    }
+    
+    .item-Setting .icon-Setting {
+        width: 57px;
+        height: 57px;
+        /* background-color: blue; */
+        margin: 0 auto;
+        /* margin-left: 5px; */
+    }
+    
+    .item-Setting .text-Setting {
+        width: 90px;
+        /* background-color: aqua; */
+        text-align: center;
+    }
+    
+    .item-Setting .text-Setting p {
+        width: 90px;
+    }
+    
+    #iconChatge-Setting {
+        background-image: url(https://s24.picofile.com/file/8452601926/sim_card_1_.png);
+        /* background-image: url(https://s25.picofile.com/file/8452896326/sim_card_5_.png); */
+        background-size: 65%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    #iconChatgeL-Setting {
+        /* background-image: url(https://s24.picofile.com/file/8452601926/sim_card_1_.png);
+         */
+        background-image: url(./public/test1/sim-card\ \(6\).png);
+        background-size: 65%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    #message-Setting {
+        background-image: url(https://s24.picofile.com/file/8452602100/speech_bubble_3_.png);
+        /* background-image: url(https://s25.picofile.com/file/8452897184/edit_2_.png); */
+        background-size: 65%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    #messageL-Setting {
+        /* background-image: url(https://s24.picofile.com/file/8452602100/speech_bubble_3_.png); */
+        background-image: url(./public/test1/edit\ \(5\).png);
+        background-size: 65%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    #contact-Setting {
+        background-image: url(https://s24.picofile.com/file/8452602142/contact_book_1_.png);
+        /* background-image: url(https://s24.picofile.com/file/8452896900/contact_book_3_.png); */
+        background-size: 65%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    #partitionL-Setting {
+        background-image: url(https://asmart.ir/application/front/static/media/icons/partition_name.png);
+        background-size: 55%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    #partition-Setting {
+        background-image: url(https://asmart.ir/application/front/static/media/icons/partition_name_b.png);
+        background-size: 55%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    #contactL-Setting {
+        /* background-image: url(https://s24.picofile.com/file/8452602142/contact_book_1_.png); */
+        background-image: url('../components/public/test1/contact-book\ \(4\).png');
+        background-size: 65%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    #outPut-Setting {
+        background-image: url(https://s25.picofile.com/file/8452602184/laptop_1_.png);
+        /* background-image: url(https://s25.picofile.com/file/8452896318/laptop_2_.png); */
+        background-size: 65%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    #outPutL-Setting {
+        /* background-image: url(https://s25.picofile.com/file/8452602184/laptop_1_.png); */
+        background-image: url('./public/test1/laptop\ \(3\).png');
+        background-size: 65%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    #remote-Setting {
+        background-image: url(https://s24.picofile.com/file/8452602218/remote_control_1_.png);
+        /* background-image: url(https://s25.picofile.com/file/8452896350/remote_control_2_.png); */
+        background-size: 65%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    #remoteL-Setting {
+        /* background-image: url(https://s24.picofile.com/file/8452602218/remote_control_1_.png); */
+        background-image: url(public/test1/remote-control\ \(3\).png);
+        background-size: 65%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    #zone-Setting {
+        background-image: url(https://s24.picofile.com/file/8452602268/time_zone.png);
+        /* background-image: url(https://s25.picofile.com/file/8452896342/time_zone_1_.png); */
+        background-size: 65%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    #zoneL-Setting {
+        /* background-image: url(https://s24.picofile.com/file/8452602268/time_zone.png); */
+        background-image: url(./public/test1/time-zone\ \(2\).png);
+        background-size: 65%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    #information-Setting {
+        background-image: url(https://s25.picofile.com/file/8452601468/info.png);
+        /* background-image: url(https://s24.picofile.com/file/8452896442/info_1_.png); */
+        background-size: 65%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    #informationL-Setting {
+        /* background-image: url(https://s25.picofile.com/file/8452601468/info.png); */
+        background-image: url(./public/test1/info\ \(2\).png);
+        background-size: 65%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    #AdvL-Setting {
+        background-image: url(https://asmart.ir/application/asset/icon/advanced_settingW.png);
+        background-size: 65%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    #Adv-Setting {
+        background-image: url(https://asmart.ir/application/asset/icon/advanced_settingB.png);
+        background-size: 65%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    #changePassDe-Setting {
+        background-image: url(https://s25.picofile.com/file/8452601468/info.png);
+        background-size: 65%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    #changePassDeL-Setting {
+        background-image: url(./public/test1/info\ \(2\).png);
+        background-size: 65%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    #changePassDeL-Setting {
+        background-image: url('https://asmart.ir/application/front/static/media/icons/change_password.png');
+        background-size: 65%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    #changePassDe-Setting {
+        background-image: url('https://asmart.ir/application/front/static/media/icons/change_password_b.png');
+        background-size: 65%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    #setDateL-Setting {
+        background-image: url('https://asmart.ir/application/front/static/media/icons/set_date.png');
+        background-size: 65%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    #setDate-Setting {
+        background-image: url('https://asmart.ir/application/front/static/media/icons/set_date_b.png');
+        background-size: 65%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    .helpPart-Setting {
+        position: relative;
+        width: 40px;
+        height: 40px;
+        background-image: url('https://s24.picofile.com/file/8452542700/question.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 75%;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        top: 50%;
+        /* left: 5px; */
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+    }

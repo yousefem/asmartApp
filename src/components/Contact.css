@@ -1,0 +1,159 @@
+    .Contact {
+        width: 95%;
+        height: 60px;
+        background-color: #1a1a1ae5;
+        display: flex;
+        /* border-bottom: 1pt solid #009b8b; */
+        border-radius: 15px;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
+        /* padding-right: 5px; */
+        margin: 0 auto;
+        margin-top: 7px;
+        color: white;
+    }
+    
+    #part1-Contact {
+        position: absolute;
+        /* background-color: brown; */
+        width: 56%;
+        height: 60px;
+        display: flex;
+    }
+    
+    #part1-Contact .addIcon-Contact {
+        position: static;
+        width: 35px;
+        height: 100%;
+        background-size: 60%;
+        background-position: center;
+        background-repeat: no-repeat;
+        left: 10px;
+        padding-left: 5px;
+    }
+    
+    .addIcon-Contact button {
+        position: relative;
+        background-color: rgb(39, 37, 37);
+        border: 1pt solid #0afc96;
+        width: 35px;
+        height: 35px;
+        font-size: 11pt;
+        font-weight: 600;
+        border-radius: 5;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 5;
+        -ms-border-radius: 5;
+        -o-border-radius: 5;
+        top: 50%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+    }
+    
+    #delet-Contact {
+        background-image: url(https://s24.picofile.com/file/8452601234/bin_1_.png);
+        background-position: center;
+        background-size: 50%;
+        background-repeat: no-repeat;
+    }
+    
+    #deletL-Contact {
+        background-image: url(https://s25.picofile.com/file/8453071642/bin_4_.png);
+        background-position: center;
+        background-size: 50%;
+        background-repeat: no-repeat;
+        background-color: #1a1a1a;
+        border: 1pt solid #ffff;
+    }
+    
+    #edit-Contact {
+        background-image: url(https://s24.picofile.com/file/8452602442/edit_1_.png);
+        background-position: center;
+        background-size: 50%;
+        background-repeat: no-repeat;
+    }
+    
+    #editL-Contact {
+        background-image: url(https://s25.picofile.com/file/8451959926/edit_1_.png);
+        background-position: center;
+        background-size: 50%;
+        background-repeat: no-repeat;
+        border: 1pt solid #ffff;
+        background-color: #1a1a1a;
+    }
+    
+    #part1-Contact div:first button {}
+    
+    #part2-Contact {
+        /* background-color: cadetblue; */
+        height: 60px;
+        display: flex;
+        width: 100%;
+        flex-direction: row-reverse;
+    }
+    
+    .icon-Contact {
+        position: relative;
+        width: 15%;
+        height: 40px;
+        background-size: 60%;
+        background-position: center;
+        background-repeat: no-repeat;
+        top: 50%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        /* background-color: red; */
+        text-align: center;
+        right: 0px;
+        /*text-align: center;
+    */
+    }
+    
+    .icon-Contact span {
+        position: absolute;
+        /* background-color: pink; */
+        height: 10px;
+        width: fit-content;
+        left: 50%;
+        top: 50%;
+        transform: translateY(-50%) translateX(-50%);
+        -webkit-transform: translateY(-50%) translateX(-50%);
+        -moz-transform: translateY(-50%) translateX(-50%);
+        -ms-transform: translateY(-50%) translateX(-50%);
+        -o-transform: translateY(-50%) translateX(-50%);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    .text-Contact {
+        position: relative;
+        width: 28%;
+        height: 60px;
+        padding: 10px;
+        /* background-color: darkorange; */
+    }
+    
+    .text-Contact .title-Contact {
+        width: 100%;
+        /* background-color: red; */
+        text-align: right;
+        text-align: center;
+    }
+    
+    .text-Contact .description-Contact {
+        text-align: right;
+        /* background-color: blue; */
+        /* font-size: small; */
+        font-size: small;
+        /* font-weight: 500; */
+        text-align: center;
+    }

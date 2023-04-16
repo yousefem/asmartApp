@@ -1,0 +1,361 @@
+.ZoonInfo {
+    width: 100vw;
+    height: 100vh;
+    background-color: #009b8c;
+    font-size: large;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    color: white;
+}
+
+#part2-ZoonInfo {
+    width: 100%;
+    margin-top: 10px;
+    overflow: hidden;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    overflow: visible;
+}
+
+#part2-ZoonInfo .items-ZoonInfo {
+    width: 97%;
+    height: 66vh;
+    /* background-color: pink; */
+    margin: 0 auto;
+    margin-top: 1px;
+    /* background-color: red; */
+}
+
+.item-ZoonInfo {
+    position: relative;
+    background-color: #1a1a1a;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+    overflow: scroll;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    /* border: 2pt solid white; */
+    margin-top: 8px;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 0px;
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+    padding-left: 5px;
+}
+
+#part2-ZoonInfo .items-ZoonInfo .item-ZoonInfo a,
+#part2-ZoonInfo .items-ZoonInfo .item-ZoonInfo .number-ZoonInfo,
+#part2-ZoonInfo .items-ZoonInfo .item-ZoonInfo .name-ZoonInfo,
+#part2-ZoonInfo .items-ZoonInfo .item-ZoonInfo .operator-ZoonInfo,
+#part2-ZoonInfo .items-ZoonInfo .item-ZoonInfo .state-ZoonInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* background-color: red; */
+    /* border: 2pt solid black; */
+    font-size: 10.5pt;
+    font-weight: 600;
+    /* color: black; */
+    text-align: center;
+}
+
+#part2-ZoonInfo .items-ZoonInfo .item-ZoonInfo .number-ZoonInfo {
+    width: 10%;
+    /* margin-right: 10px; */
+    /* background-color: red; */
+}
+
+#part2-ZoonInfo .items-ZoonInfo .item-ZoonInfo .name-ZoonInfo {
+    /* background-color: red; */
+}
+
+#part2-ZoonInfo .items-ZoonInfo .item-ZoonInfo .state-ZoonInfo {
+    /* background-color: red; */
+    width: 20%;
+}
+
+#part2-ZoonInfo .items-ZoonInfo .item-ZoonInfo .cotroller-ZoonInfo {
+    width: 35%;
+    /* background-color: red; */
+    /* background-color: red; */
+}
+
+#part2-ZoonInfo .items-ZoonInfo .item-ZoonInfo .operator-ZoonInfo {
+    width: 35px;
+    height: 35px;
+    overflow: hidden;
+    background-color: rgb(39, 37, 37);
+    /* box-shadow: 2pt 2pt 10pt black; */
+    border: 1pt solid #0afc96;
+    position: relative;
+    text-align: left;
+    text-align: center;
+    left: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    /*border: 2pt solid #009b8c;
+    */
+    /*box-shadow: 2pt 1pt 1pt rgba(255, 255, 255, 0.459);
+    */
+    /* box-shadow: 2pt 2pt 2pt rgba(0, 0, 0, 0.596); */
+    margin-right: 4px;
+    color: black;
+    background-image: url(https://s24.picofile.com/file/8452602442/edit_1_.png);
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+
+#part2-ZoonInfo .items-ZoonInfo .item-ZoonInfo .operatorL-ZoonInfo {
+    width: 35px;
+    height: 35px;
+    overflow: hidden;
+    /* background-color: #ffff; */
+    background-color: #1a1a1a;
+    /* box-shadow: 2pt 2pt 10pt black; */
+    border: 1pt solid #ffff;
+    position: relative;
+    text-align: left;
+    text-align: center;
+    left: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    /*border: 2pt solid #009b8c;
+    */
+    /*box-shadow: 2pt 1pt 1pt rgba(255, 255, 255, 0.459);
+    */
+    /* box-shadow: 2pt 2pt 2pt rgba(0, 0, 0, 0.596); */
+    margin-right: 4px;
+    color: black;
+    /* background-image: url(https://s24.picofile.com/file/8451951726/edit.png); */
+    /* background-image: url('https://s25.picofile.com/file/8453071176/edit_6_.png'); */
+    background-image: url(https://s25.picofile.com/file/8451959926/edit_1_.png);
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+
+#part2-ZoonInfo .items-ZoonInfo .item-ZoonInfo a .state-ZoonInfo div {
+    position: relative;
+    text-align: left;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+#part2-ZoonInfo .items-ZoonInfo .item-ZoonInfo a .state-ZoonInfo div p {
+    position: relative;
+    top: 50%;
+    /* background-color: green; */
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    text-align: center;
+}
+
+
+/* #part2-ZoonInfo .items-ZoonInfo .item-ZoonInfo a:nth-child(1) {
+    border-top-left-radius: 10px;
+}
+
+#part2-ZoonInfo .items-ZoonInfo .item-ZoonInfo a:nth-child(2) {
+    border-top-right-radius: 10px;
+}
+
+#part2-ZoonInfo .items-ZoonInfo .item-ZoonInfo a:nth-child(3) {
+    border-end-end-radius: 10px;
+} */
+
+#part2-ZoonInfo .items-ZoonInfo .item-ZoonInfo .cotroller-ZoonInfo {
+    /* background-color: red; */
+    display: flex;
+}
+
+#state-ZoonInfo {
+    position: relative;
+    width: 35px;
+    height: 35px;
+    top: 50%;
+    transform: translateY(-50%);
+    /* box-shadow: 2pt 2pt 2pt rgba(0, 0, 0, 0.596); */
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    background-image: url(https://s24.picofile.com/file/8452601234/bin_1_.png);
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    border: 1pt solid #0afc96;
+    background-color: rgb(39, 37, 37);
+}
+
+#stateL-ZoonInfo {
+    position: relative;
+    width: 35px;
+    height: 35px;
+    top: 50%;
+    transform: translateY(-50%);
+    /* background-color: #ffff; */
+    background-color: #1a1a1a;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    /* background-image: url(https://s24.picofile.com/file/8451585084/bin_a6fd29509719f079bfd7.png); */
+    background-image: url('./public/icons/green/bin\ \(4\).png');
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    /* border: 1pt solid #0a7d60; */
+    border: 1pt solid #ffff;
+}
+
+#part2-ZoonInfo .items-ZoonInfo .item-ZoonInfo .cotroller-ZoonInfo a {
+    position: relative;
+    /* background-color: rgb(250, 250, 162); */
+    width: 35px;
+    height: 35px;
+    overflow: hidden;
+    /* background-color: rgb(39, 37, 37); */
+    /* box-shadow: 1pt 1pt 5pt 1pt rgba(0, 0, 0, 0.479); */
+    /*margin-top: 2px;
+    */
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    /*border: 2pt solid #009b8c;
+    */
+    /*box-shadow:;
+    2pt1pt1ptrgba(255,255,255,0.459)*/
+    top: 50%;
+    transform: translateY(-50%);
+    /* box-shadow: 2pt 2pt 2pt rgba(0, 0, 0, 0.596); */
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+.title-ZoonInfo {
+    width: 100%;
+    height: 6vh;
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1pt solid #0afc96;
+    font-size: medium;
+    font-weight: 400;
+    color: white;
+}
+
+.table-ZoonInfo .title-ZoonInfo div {
+    /* width: 15%; */
+    height: 100%;
+    /* background-color: red;*/
+    /* border: 2pt solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.table-ZoonInfo .title-ZoonInfo .oprator-ZoonInfo {
+    width: 26%;
+    /* background-color: red; */
+}
+
+.table-ZoonInfo .title-ZoonInfo .state-ZoonInfo {
+    margin-left: 16%;
+}
+
+.table-ZoonInfo .title-ZoonInfo .number-ZoonInfo {
+    width: 10%;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-right: 5px;
+}
+
+.table-ZoonInfo .title-ZoonInfo .name-ZoonInfo {
+    width: 15%;
+    /* text-align: right !important; */
+    margin-left: 15px;
+}
+
+.table-ZoonInfo .title-ZoonInfo div p {
+    /* background-color: aqua; */
+    margin: 0 auto;
+}
+
+.state-ZoonInfo {
+    width: 16%;
+}
+
+.add-ZoonInfo {
+    /* width: 19vh; */
+    position: absolute;
+    /* height: 19vh; */
+    /* background-color: blueviolet; */
+    padding: 5px;
+    bottom: 5px;
+    left: 5px;
+    /* bottom: 2.5%; */
+    /* margin-bottom: 0px; */
+    /* float: inline-end; */
+    /* background-color: #009b8cc0; */
+}
+
+
+/* .add-ZoonInfo .addIcon-ZoonInfo {
+    width: 47px;
+    height: 47px;
+    margin: 0 auto;
+    background-image: url('https://s24.picofile.com/file/8451586034/plus_1_.png');
+    background-position: center;
+    background-size: 55%;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 3pt solid #d7ecffbe;
+    float: left;
+    background-color: #009b8c;
+} */

@@ -1,0 +1,326 @@
+.AddDevice {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    /*background-color: #009b8ca4;
+    */
+    z-index: 3;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+.AddDevice .centerPart-AddDevice {
+    position: absolute;
+    width: 95%;
+    height: min-content;
+    /*height: 20px;
+    */
+    background-color: #1a1a1a;
+    border-radius: 15px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    color: white;
+    /* overflow: hidden; */
+}
+
+.AddDevice .centerPart-AddDevice .titl-AddDevice {
+    border-bottom: 2pt solid #0afb98;
+    padding: 10px;
+    text-align: center;
+    /* rotate: 90deg; */
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+
+.AddDevice .centerPart-AddDevice .inputs-AddDevice {
+    position: relative;
+    text-align: right;
+    /* background-color: yellow; */
+    /* height: 400px; */
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    /* justify-content: end; */
+    border: none;
+    /* direction: rtl; */
+}
+
+.AddDevice .centerPart-AddDevice .inputs-AddDevice div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    /* background-color: chartreuse; */
+    /* border-bottom: 2pt solid #009b8b; */
+    /* padding-bottom: 5px; */
+}
+
+.AddDevice .centerPart-AddDevice .inputs-AddDevice div input {
+    width: 200px;
+    height: 30px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    background-color: rgb(39, 37, 37);
+    box-shadow: 1pt 1pt 5pt 1pt rgba(0, 0, 0, 0.479);
+    /* background-color: #ceadec; */
+    color: white;
+    padding-left: 5px;
+    /* border: 1pt solid #0afb98; */
+    border: none;
+}
+
+#right {
+    direction: rtl;
+}
+
+#left {
+    direction: ltr !important;
+}
+
+.AddDevice .centerPart-AddDevice .inputs-AddDevice div div {
+    margin-top: 0px;
+}
+
+.AddDevice .centerPart-AddDevice .inputs-AddDevice .part1Inp-AddDevice {
+    /* position: absolute; */
+    /* background-color: pink; */
+    height: 40px;
+    display: flex;
+    flex-direction: row-reverse;
+    right: 0px;
+    z-index: 4;
+}
+
+.AddDevice .centerPart-AddDevice .inputs-AddDevice .part1Inp-AddDevice .selectModel-AddDevice {
+    /* overflow: hidden; */
+    /* overflow: visible; */
+    /* border: 1pt solid #0afb98; */
+    /* background-color: #0afb98; */
+    color: black;
+    border-radius: 100px;
+    height: 30px;
+    color: white;
+    background-color: rgb(39, 37, 37);
+    box-shadow: 1pt 1pt 5pt 1pt rgba(0, 0, 0, 0.479);
+}
+
+.AddDevice .centerPart-AddDevice .inputs-AddDevice .part1Inp-AddDevice .selectModel-AddDevice div {
+    /* background-color: blueviolet; */
+    height: 30px;
+    /* width: 500px; */
+    justify-content: left;
+}
+
+.AddDevice .centerPart-AddDevice .inputs-AddDevice .part1Inp-AddDevice .selectModel-AddDevice div span:nth-child(2) {}
+
+.AddDevice .centerPart-AddDevice .inputs-AddDevice .part1Inp-AddDevice .selectModel-AddDevice ul {
+    /* visibility: hidden; */
+    /* background-color: chocolate !important; */
+    overflow: hidden;
+}
+
+.AddDevice .centerPart-AddDevice .inputs-AddDevice .part1Inp-AddDevice .selectModel-AddDevice ul li {
+    list-style: none;
+}
+
+.AddDevice .centerPart-AddDevice .inputs-AddDevice .part1Inp-AddDevice .selectModel-AddDevice {}
+
+.AddDevice .centerPart-AddDevice .controller-AddDevice {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.AddDevice .centerPart-AddDevice .controller-AddDevice button {
+    width: 70px;
+    height: 30px;
+    background-color: rgb(39, 37, 37);
+    /* box-shadow: 2pt 2pt 10pt black; */
+    border: 1pt solid #0afb98;
+    color: white;
+    /* border: #009b8b; */
+    border-radius: 30px;
+    /* box-shadow: 2pt 2pt 2pt rgba(0, 0, 0, 0.596); */
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.AddDevice .centerPart-AddDevice .inputs-AddDevice .part2Inp-AddDevice span {
+    /* position: relative; */
+    /* top: 10px; */
+    /* background-color: aqua; */
+}
+
+.part5Inp-AddDevice {
+    /* position: absolute; */
+    height: 40px;
+    /* background-color: pink; */
+    z-index: 3;
+}
+
+.part5Inp-AddDevice .selectModel-AddDevice {
+    height: 30px;
+    justify-content: left;
+    /* border: 1pt solid #0afb98; */
+    /* background-color: #0afb98; */
+    background-color: rgb(39, 37, 37);
+    box-shadow: 1pt 1pt 5pt 1pt rgba(0, 0, 0, 0.479);
+    color: black;
+    border-radius: 100px;
+    height: 30px;
+    color: white;
+}
+
+.part5Inp-AddDevice ul {
+    overflow: hidden;
+}
+
+.part6Inp-AddDevice {
+    position: relative;
+    /* background-color: pink; */
+    width: 100%;
+    /* height: 40px;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between; */
+    /* padding: 10px; */
+    /* z-index: 3; */
+    /* color: white; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.part6Inp-AddDevice .selectModel-AddDevice {
+    /* background-color: #009b8b; */
+    height: 30px;
+    /* border: 1pt solid #0afb98; */
+    /* background-color: #0afb98; */
+    background-color: rgb(39, 37, 37);
+    box-shadow: 1pt 1pt 5pt 1pt rgba(0, 0, 0, 0.479);
+    color: black;
+    border-radius: 100px;
+    height: 30px;
+    color: white;
+}
+
+.part6Inp-AddDevice .selectModel-AddDevice ul {
+    /* background-color: red; */
+    /* z-index: 3; */
+}
+
+.part7Inp-AddDevice .selectModel-AddDevice {
+    /* background-color: #009b8b; */
+    height: 30px;
+    /* border: 1pt solid #0afb98; */
+    /* background-color: #0afb98; */
+    background-color: rgb(39, 37, 37);
+    box-shadow: 1pt 1pt 5pt 1pt rgba(0, 0, 0, 0.479);
+    color: black;
+    border-radius: 100px;
+    height: 30px;
+    color: white;
+}
+
+.part7Inp-AddDevice ul {
+    overflow: hidden;
+    display: block;
+}
+
+.part6Inp-AddDevice ul {
+    overflow: hidden;
+    display: block;
+}
+
+.moreIcon-AddDevice {
+    height: 30px;
+    width: 30px;
+    background: url(./public/icons/white/expand-button.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    /* background-color: #009b8b; */
+    /* background-color: red; */
+}
+
+.moreIconL-AddDevice {
+    height: 30px;
+    width: 30px;
+    background: url(https://s25.picofile.com/file/8452973434/d.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    /* background-color: #009b8b; */
+    /* background-color: red; */
+}
+
+ul {
+    background-color: white;
+    border-end-end-radius: 10px;
+    text-align: center;
+    color: black;
+}
+
+ul li {
+    margin-top: 7px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+ul li:hover {
+    background-color: rgb(173, 173, 173);
+}
+
+.selected-AddDevice {
+    /* border: 2pt solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* background-color: #009b8b; */
+}
+
+.titlInp-AddDevice {
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    text-align: right;
+}
+
+ul {
+    width: 90px;
+}
+
+ul li {
+    width: 90px;
+    margin: 0 auto;
+    text-align: center;
+    margin: 0 auto;
+    /* border: 2pt solid; */
+    padding: 5px;
+}
+
+.error-AddDevice {
+    /* background-color: red; */
+    font-size: small;
+    color: red;
+}

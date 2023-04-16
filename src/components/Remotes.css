@@ -1,0 +1,454 @@
+.Remotes {
+    width: 100vw;
+    height: 100vh;
+    /* background-color: #009b8cf1; */
+    font-size: 11pt;
+    /* font-weight: 600; */
+    /* background-image: url('https://s25.picofile.com/file/8451585292/tina_dawson_Kim9COAIEGc_unsplash_5922e7ed1d3da93bbae6.jpg'); */
+    background-position: center;
+    background-size: cover;
+}
+
+#part2-Remotes {
+    width: 100vw;
+    height: 90vh;
+    /* border: 0pt solid #009b8c; */
+    margin-top: 10px;
+    overflow: hidden;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    overflow-y: scroll;
+}
+
+#part2-Remotes .items-Remotes {
+    width: 97%;
+    height: fit-content;
+    /* background-color: pink; */
+    /* margin: 0 auto; */
+    margin: 0 auto;
+    margin-top: 1px;
+}
+
+.item-Remotes {
+    position: relative;
+    background-color: #1a1a1a;
+    /* padding-left: 5px; */
+    width: 100%;
+    /* height: 0px; */
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    border-radius: 8px;
+    overflow: hidden;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    top: 8px;
+    left: 50%;
+    /* padding: 2px; */
+    transform: translate(-50%);
+    /* border: 2pt solid white; */
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+    margin-top: 10px;
+    font-size: medium;
+    font-weight: 600;
+    color: white;
+    height: 60px;
+}
+
+
+/* #part2-Remotes .items-Remotes .item-Remotes .state-Remotes, */
+
+#part2-Remotes .items-Remotes .item-Remotes .number-Remotes,
+#part2-Remotes .items-Remotes .item-Remotes .name-Remotes,
+#part2-Remotes .items-Remotes .item-Remotes .type-Remotes {
+    width: 26%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* background-color: red; */
+    font-size: 10.5pt;
+    font-weight: 600;
+}
+
+#part2-Remotes .items-Remotes .item-Remotes .number-Remotes {
+    width: 5%;
+    margin-right: 10px;
+}
+
+#part2-Remotes .items-Remotes div {
+    /* border: 2pt solid; */
+}
+
+#part2-Remotes .items-Remotes .item-Remotes .states-remotes {
+    /* background-color: yellow; */
+    width: 35%;
+    min-width: 114px;
+    display: flex;
+    /* justify-content: space-around; */
+    height: 90px;
+    /*flex-wrap: wrap;
+    */
+    padding: 0px;
+    /*margin-top: 2px;
+    */
+    /*padding-top: 2px;
+    */
+    /*margin: 0px;
+    */
+    height: 36px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+#part2-Remotes .items-Remotes .item-Remotes .statesL-remotes {
+    /* background-color: yellow; */
+    width: 25%;
+    min-width: 114px;
+    display: flex;
+    justify-content: space-around;
+    height: 90px;
+    /*flex-wrap: wrap;
+    */
+    padding: 0px;
+    /*margin-top: 2px;
+    */
+    /*padding-top: 2px;
+    */
+    /*margin: 0px;
+    */
+    height: 36px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+#part2-Remotes .items-Remotes .item-Remotes .states-remotes div,
+#part2-Remotes .items-Remotes .item-Remotes .states-remotes a {
+    background-color: #1a1a1a;
+    position: relative;
+    margin-left: 2px;
+}
+
+.states-remotes a {
+    /* position: relative; */
+    width: 35px;
+    height: 35px;
+    overflow: visible;
+    /* background-color: red; */
+    background-color: rgb(39, 37, 37);
+    /* box-shadow: 2pt 2pt 10pt black; */
+    border: 1pt solid #0afc96;
+    /* padding: 0px !important; */
+    /* border: none; */
+}
+
+#part2-Remotes .items-Remotes .item-Remotes .states-remotes a div {
+    position: absolute;
+    /* background-color: red; */
+    /* border: 1pt solid #0afc96; */
+    width: 35px;
+    height: 35px;
+    /*padding: 3px;
+    */
+    /*padding: 3px;
+    */
+    /*width: 75px;
+    */
+    /*margin-left: 5%;
+    */
+    font-size: small;
+    font-weight: 400;
+    /*border: 2pt solid;
+    */
+    overflow: hidden;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    background-color: rgb(39, 37, 37);
+    border: none !important;
+}
+
+
+/* 
+#part2-Remotes .items-Remotes .item-Remotes .states-remotes a div {
+    position: absolute;
+    border-radius: 50%;
+    border: 1pt solid #0afc96;
+    /* width: 100%;
+    height: 100%; 
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    -webkit-transform: translateY(-50%) translateX(-50%);
+    -moz-transform: translateY(-50%) translateX(-50%);
+    -ms-transform: translateY(-50%) translateX(-50%);
+    -o-transform: translateY(-50%) translateX(-50%);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+} */
+
+#part2-Remotes .items-Remotes .item-Remotes div {
+    /* background-color: red; */
+    /* border: 2pt solid red; */
+    text-align: center;
+}
+
+#part2-Remotes .items-Remotes .item-Remotes .states-remotes .edit-Remotes {
+    width: 35px;
+    height: 35px;
+    background-color: rgb(39, 37, 37);
+    /*box-shadow: 2pt 2pt 10pt black;
+    */
+    border: 1pt solid #0afc96;
+    border-radius: 50%;
+    overflow: hidden;
+    /*border: 2pt solid;
+    */
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-image: url(https://s24.picofile.com/file/8452602442/edit_1_.png);
+    background-position: center;
+    background-size: 45%;
+    background-repeat: no-repeat;
+    margin-right: 0px;
+    -webkit-border-radius: 50%;
+}
+
+#part2-Remotes .items-Remotes .item-Remotes .states-remotes .editL-Remotes {
+    width: 35px;
+    height: 35px;
+    background-color: #1a1a1a;
+    /*box-shadow: 2pt 2pt 10pt black;
+    */
+    /* border: 1pt solid #0a7d60; */
+    border: 1pt solid #ffff;
+    border-radius: 50%;
+    overflow: hidden;
+    /*border: 2pt solid;
+    */
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-image: url(https://s25.picofile.com/file/8451959926/edit_1_.png);
+    background-position: center;
+    background-size: 45%;
+    background-repeat: no-repeat;
+    margin-right: 0px;
+    -webkit-border-radius: 50%;
+    border: 1pt solid #ffff;
+}
+
+
+/* #part2-Remotes .items-Remotes .item-Remotes .states-remotes a {
+     border: 2pt solid;
+    background-image: url(https://s24.picofile.com/file/8451585084/bin_a6fd29509719f079bfd7.png);
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+} */
+
+#part2-Remotes .items-Remotes .item-Remotes .states-remotes a:nth-child(1) .state-Remotes {
+    background-image: url(https://s24.picofile.com/file/8452601234/bin_1_.png);
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-color: rgb(39, 37, 37) !important;
+    width: 35px;
+    height: 35px;
+    border-radius: 500%;
+    -webkit-border-radius: 500%;
+    -moz-border-radius: 500%;
+    -ms-border-radius: 500%;
+    -o-border-radius: 500%;
+}
+
+#part2-Remotes .items-Remotes .item-Remotes .states-remotes a:nth-child(1) .stateL-Remotes {
+    background-image: url(https://s25.picofile.com/file/8453071642/bin_4_.png);
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    border: 1pt solid #ffff;
+    background-color: #1a1a1a;
+    border: unset;
+}
+
+#part2-Remotes .items-Remotes .item-Remotes .states-remotes a:nth-child(1) {
+    overflow: hidden;
+    /* border: 2pt solid black; */
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    color: black;
+}
+
+#part2-Remotes .items-Remotes .item-Remotes .states-remotes a:nth-child(3) .state-Remotes {
+    background-image: url(https://s25.picofile.com/file/8452602618/no_entry_2_.png);
+    background-position: center;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-color: rgb(39, 37, 37);
+}
+
+#part2-Remotes .items-Remotes .item-Remotes .states-remotes a:nth-child(3) .stateL-Remotes {
+    background-image: url(https://s24.picofile.com/file/8453071776/no_entry_5_.png);
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    border: 1pt solid#5daf60;
+    background-color: #1a1a1a;
+    border: 1pt solid #ffff;
+}
+
+#part2-Remotes .items-Remotes .item-Remotes .states-remotes a:nth-child(3) {
+    overflow: hidden;
+    /*border: 2pt solid;
+    */
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+#part2-Remotes .items-Remotes .item-Remotes .states-remotes a:last-child {
+    /* background-color: red; */
+    /* width: 100%; */
+}
+
+#part2-Remotes .items-Remotes .item-Remotes .states-remotes a .state-Remotes {}
+
+#part2-Remotes .items-Remotes .item-Remotes div {
+    /* margin-left: 2px; */
+    /* margin-right: 4px; */
+}
+
+#part2-Remotes .items-Remotes .item-Remotes .state-Remoteso {
+    /* width: 25%;
+    height: 23px;
+    overflow: hidden;
+    background-image: url('https://s25.picofile.com/file/8451586026/x.png');
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 2pt solid #5ae016be; */
+}
+
+.table-Remotes .title-Remotes {
+    width: 100%;
+    height: 6vh;
+    background-color: #1a1a1a;
+    display: flex;
+    /* justify-content: space-between; */
+    border-bottom: 1pt solid #0afc96;
+    font-size: medium;
+    font-weight: 400;
+    color: white;
+    padding-left: 1.5%;
+    /* padding-right: 10px;
+    padding: 3%; */
+}
+
+.table-Remotes .title-Remotes div {
+    width: 26%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* border: 2pt solid; */
+    text-align: center;
+}
+
+.table-Remotes .title-Remotes .number-Remotes {
+    width: 7%;
+    /* background-color: red; */
+    direction: rtl;
+    margin-right: 5px;
+    padding-right: 7px;
+}
+
+.table-Remotes .title-Remotes .state-Remotes {
+    /* width: 40%; */
+    /* min-width: 114px; */
+    /* background-color: red; */
+    width: 30%;
+    text-align: center;
+    margin-right: 25px;
+}
+
+.table-Remotes .title-Remotes div p {
+    /* background-color: aqua; */
+}
+
+.add-Remotes {
+    /* width: 47px; */
+    position: absolute;
+    /* height: 47px; */
+    /* background-color: blueviolet; */
+    /* padding: 5px; */
+    bottom: 5px;
+    left: 5px;
+    /* bottom: 2.5%; */
+    /* margin-bottom: 0px; */
+    /* float: inline-end; */
+    /* background-color: #009b8cc0; */
+}
+
+.add-Remotes .addIcon-Remotes {
+    width: 47px;
+    height: 47px;
+    /* /*background-color: red; */
+    margin: 0 auto;
+    /* background-image: url('https://s24.picofile.com/file/8451586034/plus_1_.png'); */
+    background-position: center;
+    background-size: 55%;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 3pt solid #d7ecffbe;
+    float: left;
+    /* background-color: #009b8c; */
+}

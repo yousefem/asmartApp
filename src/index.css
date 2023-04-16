@@ -1,0 +1,193 @@
+/* colorThem:#009b8b */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&family=Vazirmatn:wght@100;200;300;400;500;600;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Vazirmatn', sans-serif;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+input,
+textarea {
+    font-family: 'Roboto', sans-serif;
+}
+
+#light_bg {
+    background-color: #f7f7f7ab;
+    /* background-color: rgb(175, 175, 175); */
+    /* background-color: #ecf5eb; */
+    box-shadow: 1pt 1pt 6pt 1pt rgba(0, 0, 0, 0.479);
+    color: black;
+}
+
+#lightnb_bg {
+    background-color: #f7f7f7;
+    /* background-color: rgb(175, 175, 175); */
+    /* background-color: #ecf5eb; */
+    box-shadow: 1pt 1pt 5pt 1pt rgba(0, 0, 0, 0.479);
+    color: black;
+}
+
+#noBackGround {
+    background-color: #0a7d60;
+}
+
+
+/* https://www.flaticon.com/free-icon/lock_3107363?related_id=3107363
+https://www.flaticon.com/free-icon/unlock_3950507?term=open%20locked&page=1&position=4&page=1&position=4&related_id=3950507&origin=search
+https://www.flaticon.com/free-icon/open-lock_3950468?term=open%20locked&page=1&position=14&page=1&position=14&related_id=3950468&origin=search */
+
+#lightButtonnb_bg {
+    background-color: #ffff !important;
+    color: #000000 !important;
+    /* box-shadow: 1pt 1pt 5pt 1pt rgba(0, 0, 0, 0.452); */
+    border: none;
+    /* color: black; */
+    border: 1pt solid #0a7d60;
+}
+
+.lightButtonnb_bg {
+    background-color: #ffff !important;
+    color: #000000 !important;
+    /* box-shadow: 1pt 1pt 5pt 1pt rgba(0, 0, 0, 0.452); */
+    border: none;
+    /* color: black; */
+    border: 1pt solid #0a7d60;
+}
+
+#lightButton_bg {
+    background-color: #ffff;
+    color: #000000;
+    border: 1pt solid #0a7d60;
+    box-shadow: 1pt 1pt 5pt 1pt rgba(0, 0, 0, 0.452);
+    /* margin-bottom: 10px; */
+}
+
+#light_text {
+    color: #000000 !important;
+}
+
+#border_green {
+    border: 2pt solid #0a7d60;
+}
+
+#border_light {
+    border: 1pt solid #0a7d60;
+    /* background-color: white; */
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Vazirmatn', sans-serif;
+    background-color: white;
+}
+
+.border_light {
+    border: 1pt solid #0a7d60;
+    background-color: white;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Vazirmatn', sans-serif;
+}
+
+#noborder {
+    border: unset;
+}
+
+.noborder {
+    border: unset !important;
+}
+
+#title_light {
+    border-bottom: 2pt solid #0a7d60;
+    background-color: #f7f7f7;
+    /* background-color: rgb(175, 175, 175); */
+    /* background-color: #ecf5eb; */
+    /* box-shadow: 1pt 1pt 6pt 1pt rgba(0, 0, 0, 0.479); */
+    color: black;
+}
+
+#borederBottom_Adv {
+    border-bottom: 1.5pt solid #0a7d60;
+}
+
+#z1 {
+    position: relative;
+    z-index: 1 !important;
+}
+
+.margin_AdvBu {
+    margin-top: 9px !important;
+    margin-bottom: 9px !important;
+}
+
+.padding_AdvSe {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+/* helpP.css */
+
+.HelpP {
+    position: fixed !important;
+    width: 100vw;
+    height: 100vh;
+    background-color: #1a1a1a67;
+    width: 100vw;
+    height: 100vh;
+    z-index: 3;
+}
+
+.content-HelpP {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 95%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    background-color: red;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.title-HelpP {
+    border-bottom: 1pt solid #0afc96;
+    padding: 10px;
+}
+
+.button-HelpP {
+    padding: 10px;
+}
+
+.text-HelpP {
+    height: 400px;
+    overflow-y: scroll;
+    border-bottom: 1pt solid #0afc96;
+}
+
+.content-HelpP {
+    border: 1pt solid gray;
+    border-radius: 10px;
+    width: 96%;
+    margin: 0 auto;
+    background-color: #1a1a1a;
+    color: white;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-top: 5px;
+}

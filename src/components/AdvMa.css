@@ -1,0 +1,66 @@
+.scroll {
+    overflow-y: scroll;
+}
+
+.part1-AdvMa {
+    border: 1pt solid gray;
+    display: block;
+    width: 46%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-color: #1a1a1a;
+    color: white;
+    /* background-color: red; */
+}
+
+.title-AdvMa {
+    border-bottom: 1pt solid #0afc96;
+    height: 30px;
+}
+
+.checkBox-AdvMa {
+    border-bottom: 1pt solid #0afc96;
+}
+
+.level-AdvMa {
+    /* border-bottom: 1pt solid #0afc96; */
+}
+
+.level-AdvMa {
+    margin-top: 10px;
+}
+
+.checkBox-AdvMa div {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 5px;
+}
+
+.part-AdvMa {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.checkBox-AdvMa {
+    height: 200px;
+    overflow-y: scroll;
+}
+
+.part2-AdvMa {
+    border: 1pt solid gray;
+    background-color: #1a1a1a;
+    color: white;
+    display: block;
+    width: 96%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}

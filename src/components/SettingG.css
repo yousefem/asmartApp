@@ -1,0 +1,123 @@
+.SettingG {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://s25.picofile.com/file/8451911668/BeFunky_photo.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.part-SettingG {
+    width: 95vw;
+    /* height: 100px; */
+    background-color: #1a1a1a;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.item-SettingG {
+    width: 98%;
+    /* height: 50px; */
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto;
+    /* background-color: red; */
+}
+
+.item-SettingG input {
+    width: 200px;
+    height: 30px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    background-color: rgb(39, 37, 37);
+    box-shadow: 1pt 1pt 5pt 1pt rgba(0, 0, 0, 0.479);
+    border: none;
+}
+
+.item-SettingG span {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: medium;
+    font-weight: 400;
+}
+
+.item-SettingG .changeThem {
+    /*background-color: red;
+    */
+    width: 80px;
+    height: 30px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    border: 1pt solid #0afc96;
+    margin-left: 10px;
+    font-family: 'Vazirmatn', sans-serif;
+    font-size: small;
+}
+
+.part-SettingG button {
+    width: 70px;
+    height: 30px;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    border: 1pt solid #0afc96;
+    background-color: rgb(39, 37, 37);
+    box-shadow: 1pt 1pt 5pt 1pt rgba(0, 0, 0, 0.479);
+    color: white;
+    margin: 30px auto;
+    margin-bottom: 0px;
+}
+
+.item-SettingG .update-SettigG {
+    width: 40px;
+    height: 40px;
+    background-image: url(https://s25.picofile.com/file/8452551984/download_1_.png);
+    background-size: 35%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1pt solid #0afc96;
+    margin-left: 10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.item-SettingG .updateL-SettigG {
+    width: 40px;
+    height: 40px;
+    background-image: url(https://s24.picofile.com/file/8452989750/download_2_.png);
+    background-size: 35%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1pt solid #0afc96;
+    margin-left: 10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+#error-SettingG {
+    font-size: small;
+}

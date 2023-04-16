@@ -1,0 +1,28 @@
+.Help {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://s25.picofile.com/file/8451911668/BeFunky_photo.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.part1-Help {
+    position: relative;
+    width: 95vw;
+    height: 90vh;
+    background-color: #1a1a1a;
+    top: 10px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    -webkit-transform: translate(-50%, 0%);
+    -moz-transform: translate(-50%, 0%);
+    -ms-transform: translate(-50%, 0%);
+    -o-transform: translate(-50%, 0%);
+    padding: 5px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    color: white;
+}

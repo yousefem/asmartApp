@@ -1,0 +1,132 @@
+.part1-Information {
+    position: relative;
+    background-color: #1a1a1a;
+    width: 95vw;
+    left: 50%;
+    top: 10px;
+    transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+    padding: 5px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    color: white;
+}
+
+.part1-Information .item-Information {
+    /* background-color: pink; */
+    display: flex;
+    justify-content: space-around;
+    margin-top: 22px;
+}
+
+.part3-Information {
+    /* background-color: red; */
+    /* margin-top: 50px; */
+    padding-bottom: 10px;
+}
+
+.part1-Information .item-Information .text-Information {
+    /* background-color: pink; */
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 10.5pt;
+    font-weight: 600;
+}
+
+.part1-Information .item-Information .input-Information {
+    width: 45%;
+}
+
+.part1-Information .item-Information .input-Information input {
+    height: 30px;
+    background-color: rgb(39, 37, 37);
+    box-shadow: 1pt 1pt 5pt 1pt rgba(0, 0, 0, 0.479);
+    border: none;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.part6Inp-Information {
+    width: 100%;
+    /* background-color: red; */
+    /* color: black; */
+    display: flex;
+    justify-content: space-between;
+    font-size: small;
+    font-weight: 400;
+}
+
+.part6Inp-Information .titlInp-AddDevice {
+    width: 50%;
+    /* background-color: blue; */
+    font-size: 10.5pt;
+    font-weight: 600;
+    text-align: center;
+}
+
+.titlInp-AddDevice {
+    width: 50%;
+    /* background-color: blue; */
+    font-size: 10.5pt;
+    font-weight: 600;
+}
+
+#selectModel-AddDevice ul {
+    /* background-color: red; */
+    /* z-index: 2; */
+}
+
+.selectModel-AddDevice,
+.selectOperator-AddDevice {
+    /* background-color: #0afc96; */
+    margin: 0 auto;
+    /* font-size: medium; */
+    /* font-weight: 400; */
+}
+
+#inputName-Information {
+    direction: rtl;
+}
+
+.save-Infofrmation {
+    width: 70px;
+    height: 30px;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    border: 1pt solid #0afc96;
+    background-color: rgb(39, 37, 37);
+    box-shadow: 1pt 1pt 5pt 1pt rgba(0, 0, 0, 0.479);
+    color: white;
+    margin-top: 30px;
+    /* margin: 0px 0 0px 0; */
+}
+
+input {
+    padding-left: 2px;
+    color: white;
+    font-size: small;
+    font-weight: 400;
+    text-align: center;
+}
+
+.error-Information {
+    margin-top: 10px;
+    color: red;
+    font-size: small;
+    height: 10px;
+    /* background-color: blue; */
+}

@@ -1,0 +1,152 @@
+.Charge {
+    /* position: absolute; */
+    width: 100vw;
+    height: 100vh;
+    /* background-color: #ffffff; */
+    background-color: #009b8c7c;
+    font-size: medium;
+    font-weight: 400;
+    /* background-image: url('https://s25.picofile.com/file/8451585292/tina_dawson_Kim9COAIEGc_unsplash_5922e7ed1d3da93bbae6.jpg'); */
+    background-position: center;
+    background-size: cover;
+    bottom: 0px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.part1-Charge {
+    position: relative;
+    width: 92.5vw;
+    /* max-width: 300px; */
+    height: 240px;
+    /* max-height: ; */
+    /*height: 65px;
+    */
+    /*background-color: red;
+    */
+    /* margin: 40px auto; */
+    /* padding: 5px; */
+    /* overflow-y: hidden; */
+    /* overflow-x: hidden; */
+    background-color: #1a1a1a;
+    box-shadow: 1pt 1pt 5pt 1pt rgba(0, 0, 0, 0.479);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    /* left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%); */
+    color: white;
+    margin: 10px auto;
+}
+
+.part1-Charge .cach-Charge {
+    width: 150px;
+    height: 120px;
+    background-color: rgba(255, 255, 255, 0.548);
+    border: 2pt solid rgb(255, 255, 255);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.part1-Charge .increase-Charge {
+    position: absolute;
+    width: 100%;
+    /* background-color: green; */
+    display: flex;
+    justify-content: space-around;
+    /* margin-top: 30px; */
+    margin-bottom: 5px;
+    /* background-color: red; */
+    bottom: 0px;
+}
+
+.part1-Charge .tell-Charge {
+    margin-top: 5px;
+    font-family: 'Vazirmatn', sans-serif;
+    font-size: 10.5pt;
+    font-weight: 600;
+    line-height: 35px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+#noWeight {
+    /* font-size: 2pt; */
+    font-weight: 200 !important;
+}
+
+.part1-Charge .increase-Charge input {
+    width: 200px;
+    height: 35px;
+    border-radius: 60px;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    -ms-border-radius: 60px;
+    -o-border-radius: 60px;
+    border: none;
+    text-align: center;
+    border: 2pt solid #009b8b;
+    /* font-size: large; */
+    box-shadow: 1pt 1pt 5pt 1pt rgba(0, 0, 0, 0.479);
+}
+
+.part1-Charge .increase-Charge .submitPart-Charge button {
+    width: 85px;
+    height: 30px;
+    background-color: rgb(39, 37, 37);
+    box-shadow: 1pt 1pt 5pt 1pt rgba(0, 0, 0, 0.479);
+    border: none;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    /* font-size: 10.5pt; */
+    /* font-weight: 500; */
+    font-weight: 600;
+    font-size: 10.5pt;
+    box-shadow: 1pt 1pt 5pt 1pt rgba(0, 0, 0, 0.479);
+    color: white;
+    border: 1pt solid #0afc96;
+}
+
+.inputCode {
+    font-size: small;
+    /* color: rgb(214, 221, 227); */
+}
+
+.inputCode input {
+    margin-top: 5px;
+    width: 70%;
+    height: 20px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    border: 2px solid rgba(0, 0, 0, 0.534);
+    font-size: small;
+    font-weight: 400;
+    padding: 5px;
+    margin-bottom: 15px;
+    border: none;
+    /* color: white; */
+    /*box-shadow: 2pt 2pt 6pt 2pt rgba(0, 0, 0, 0.678);
+    */
+    background-color: rgb(39, 37, 37);
+    box-shadow: 1pt 1pt 5pt 1pt rgba(0, 0, 0, 0.479);
+}

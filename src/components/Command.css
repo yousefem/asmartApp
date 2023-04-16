@@ -1,0 +1,149 @@
+.Command {
+    /*background-color: #009b8ca4;
+    */
+    /* background-color: red; */
+    position: fixed;
+    bottom: 0%;
+    /* left: 0px; */
+    /* z-index: 2; */
+    /* margin: 0 auto; */
+    overflow: hidden;
+    right: 0px;
+    bottom: 2px;
+    z-index: 4;
+}
+
+.CommandBG {
+    /* background-color: red; */
+    background-image: url(https://s25.picofile.com/file/8451911668/BeFunky_photo.png);
+    background-size: cover;
+    /* background-color: #0afc97; */
+    /* background-color: red; */
+}
+
+.blure-Command {
+    position: fixed;
+    background-color: #0f0f0f8c;
+    width: 100vw;
+    height: 100vh;
+}
+
+.icon-Command {
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    /* background-image: url(https://s24.picofile.com/file/8452601684/receive_mail.png); */
+    background-image: url(https://s24.picofile.com/file/8452601684/receive_mail.png);
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-color: rgb(39, 37, 37);
+    box-shadow: 2pt 2pt 10pt black;
+    /* border: 1pt solid #0afc96; */
+    bottom: 18px;
+    right: 18px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    /* z-index: 5; */
+    z-index: 4;
+}
+
+.iconL-Command {
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    /* background-image: url(https://s24.picofile.com/file/8452601684/receive_mail.png); */
+    background-image: url(https://s24.picofile.com/file/8453064842/receive_mail_2_.png);
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-color: rgb(39, 37, 37);
+    box-shadow: 2pt 2pt 10pt black;
+    /* border: 1pt solid #0afc96; */
+    bottom: 18px;
+    right: 18px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    /* z-index: 5; */
+    z-index: 4;
+}
+
+.text-Command {
+    position: absolute;
+    width: 95%;
+    /*height: 400px;
+    */
+    background-color: #1a1a1a;
+    left: 50%;
+    color: white;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-radius: 18px;
+    overflow: hidden;
+}
+
+.text-Command textarea {
+    width: 95%;
+    height: 170px;
+    padding: 5px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    border: white;
+    /* border: 2px solid rgba(0, 0, 0, 0.534); */
+    /* background-color: red; */
+    margin-top: 10px;
+    text-align: right;
+    flex-wrap: wrap;
+    background-color: rgb(39, 37, 37);
+    box-shadow: 2pt 2pt 10pt black;
+    color: white;
+    font-size: small;
+    font-weight: 400;
+}
+
+.text-Command .titl-Command {
+    width: 100%;
+    border-bottom: 2pt solid #0afc96;
+    padding: 10px;
+    /* background-color: red; */
+    font-size: medium;
+    font-weight: 400;
+}
+
+.text-Command button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(39, 37, 37);
+    box-shadow: 2pt 2pt 10pt black;
+    width: 70px;
+    height: 30px;
+    border: 1pt solid #0afc96;
+    box-shadow: 2pt 2pt 2pt rgba(0, 0, 0, 0.596);
+    font-size: small;
+    font-weight: 400;
+    /*margin: 0 auto;
+    */
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    color: white;
+    overflow: hidden;
+}
